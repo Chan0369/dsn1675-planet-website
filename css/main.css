@@ -22,6 +22,10 @@ body {
   margin: 0;
 }
 
+header {
+  background-color: grey;
+}
+
 h1 {
   text-align: center;
 }
