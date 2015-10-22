@@ -21,3 +21,28 @@ font-family: sans-serif;
 body {
   margin: 0;
 }
+
+h1 {
+  text-align: center;
+}
+
+li {
+  padding: 0;
+}
+
+.img-flex {
+  width: 100%;
+  display: block;
+}
+
+.list {
+  list-style-type: none;
+}
+
+@media only srceen and (mid-width: 25em) {
+
+  li {
+    display: inline-block;
+  }
+
+}
