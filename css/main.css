@@ -43,6 +43,11 @@ a {
   list-style-type: none;
 }
 
+.gutter {
+  padding-left: 2.5em;
+  padding-right: 2.5em;
+}
+
 @media only srceen and (mid-width: 25em) {
 
   li {
