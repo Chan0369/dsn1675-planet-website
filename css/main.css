@@ -49,9 +49,17 @@ a {
   padding-top: 2em;
 }
 
-@media only srceen and (mid-width: 25em) {
+@media only screen and (min-width: 25em) {
 
-  li {
+  h1{
+    text-align: left;
+  }
+
+}
+
+@media only srceen and (mid-width: 38em) {
+
+  li a {
     display: inline-block;
   }
 
