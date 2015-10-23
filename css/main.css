@@ -34,6 +34,10 @@ a {
   text-decoration: none;
 }
 
+ol {
+  padding: 0;
+}
+
 .img-flex {
   width: 100%;
   display: block;
