@@ -30,13 +30,22 @@ h1 {
   text-align: center;
 }
 
+li {
+  margin: 1em;
+}
+
 a {
   text-decoration: none;
   color: blue;
 }
 
+li:hover{
+  background-color: blue;
+  padding: 0.25em;
+}
+
 a:hover {
-  color: red;
+  color: white;
 }
 
 ol {
@@ -50,6 +59,16 @@ ol {
 
 .list {
   list-style-type: none;
+}
+
+p {
+  margin: 0;
+}
+
+.p1 {
+  background-color: lightgrey;
+  text-align: center;
+  padding: 1.5em;
 }
 
 .gutter {
