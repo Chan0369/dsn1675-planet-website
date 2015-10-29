@@ -63,12 +63,17 @@ ol {
 
 p {
   margin: 0;
+  padding: 1em;
 }
 
 .p1 {
   background-color: lightgrey;
   text-align: center;
   padding: 1.5em;
+}
+
+h2 {
+  padding-left: 1em;
 }
 
 .gutter {
