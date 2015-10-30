@@ -82,7 +82,10 @@ p {
 }
 
 h2 {
-  padding-left: 0.75em;
+  text-align: center;
+  background-color: lightgrey;
+  padding: 1em;
+  margin: 0;
 }
 
 .info {
