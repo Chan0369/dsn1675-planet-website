@@ -62,10 +62,6 @@ ol {
   display: block;
 }
 
-.images {
-  padding-top: 1em;
-}
-
 .list {
   list-style-type: none;
 }
@@ -75,15 +71,12 @@ p {
   padding: 1em;
 }
 
-.p1 {
+.lightcolor {
   background-color: lightgrey;
-  text-align: center;
-  padding: 1.5em;
 }
 
 h2 {
   text-align: center;
-  background-color: lightgrey;
   padding: 1em;
   margin: 0;
 }
@@ -98,7 +91,6 @@ h2 {
 
 h3 {
   padding-left: 0.75em;
-  padding-top: 1em;
 }
 
 dt {
@@ -122,9 +114,11 @@ footer {
   margin: 0;
 }
 
-@media only srceen and (mid-width: 38em) {
 
-  li a {
+
+@media only screen and (min-width: 25em) {
+
+  nav li {
     display: inline-block;
   }
 
