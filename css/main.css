@@ -114,12 +114,8 @@ footer {
   padding: 1em;
 }
 
-@media only screen and (min-width: 25em) {
-
-  h1{
-    text-align: left;
-  }
-
+.f {
+  margin: 0;
 }
 
 @media only srceen and (mid-width: 38em) {
