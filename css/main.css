@@ -1,25 +1,5 @@
-@-moz-viewport { width: device-width; scale: 1;}
-@-ms-viewport { width: device-width; scale: 1;}
-@-o-viewport { width: device-width; scale: 1;}
-@-webkit-viewport { width: device-width; scale: 1;}
-@viewport { width: device-width; scale: 1;}
-
 html {
-  box-sizing: border-box;
-  -moz-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  text-size-adjust: 100%;
-
-font-family: sans-serif;
-}
-
-*, *::before, *::after {
-  box-sizing: inherit;
-}
-
-body {
-  margin: 0;
+  font-family: sans-serif;
 }
 
 .intro {
@@ -69,11 +49,6 @@ a:hover {
   list-style-type: none;
 }
 
-p {
-  margin: 0;
-  padding-left: 1.125em;
-}
-
 .lightcolor {
   background-color: lightgrey;
 }
@@ -89,18 +64,6 @@ h2 {
 
 .info2 {
   background-color: lightgrey;
-}
-
-h3 {
-  padding-left: 1em;
-}
-
-dt {
-  margin-top: 1em;
-}
-
-dl {
-  padding-left: 1em;
 }
 
 dd {
